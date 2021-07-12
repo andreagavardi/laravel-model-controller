@@ -1,1 +1,23 @@
-    
+.container {
+    .movies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .movie {
+            border: 1px solid lightcoral;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            width: calc(100% / 5 - 1rem);
+            margin: 0.5rem;
+            padding: 1rem 0.5rem;
+            h2,
+            h5 {
+                text-align: center;
+            }
+        }
+    }
+}
