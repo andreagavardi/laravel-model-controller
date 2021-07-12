@@ -7,3 +7,7 @@
 body {
   background-color: bisque;
 }
+
+.active {
+  color: white;
+}
